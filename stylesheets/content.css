@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+  font-family: "CarlaSansLight";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+.box{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.blue{
+    background: blue;
+}
+.pink{
+    background: pink;
+}
+.grey{
+    background: grey;
+}
+.black{
+    background: blanchedalmond;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.blocker{
+    display: none;
+}
